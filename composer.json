@@ -31,7 +31,7 @@
   },
   "require": {
     "php": ">=7.2",
-    "energia-source/knight-artifact-entity": "*"
+    "knight/artifact-entity": "*"
   },
   "repositories": [
     {
