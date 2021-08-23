@@ -1,0 +1,33 @@
+div#setting { position: absolute; right: 0; left: 0; bottom: 0; top: 0; }
+
+div#setting div.search { margin: 8px 0; background-color: #f1f1f1; border: 1px solid #cecece; border-radius: 2px; }
+div#setting div.search i { position: absolute; padding: 4px; margin-top: 1px; border-right: 1px dotted #cecece; }
+div#setting div.search div.field { margin-left: 32px; padding: 0 8px; background-color: #fff; }
+div#setting div.search div.field input { width: 100%; padding: 8px 0; }
+
+div#setting div.list { position: absolute; top: 60px; left: 0; bottom: 0; right: 0; padding: 0; padding-right: 8px; overflow-y: scroll; }
+div#setting div.list { border-top: 1px solid #f1f1f1; border-bottom: 1px solid #f1f1f1; }
+div#setting div.list ul { padding: 16px 0; }
+div#setting div.list ul li, div#setting div.list ul li label, div#setting div.list ul li div.option { height: 36px; line-height: 36px; }
+div#setting div.list ul li { position: relative; margin: 6px 0; user-select: none; border: 1px solid #cecece; background-color: #FFF; border-radius: 2px; box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+div#setting div.list ul li.active.ghost { opacity: 4; border-style: dashed; border-color: #cecece; }
+div#setting div.list ul li.active:hover { border-color: #3367d6; }
+
+div#setting div.list ul li.not-found { text-align: center; }
+div#setting div.list ul li.not-found span { font-weight: 700; }
+
+div#setting div.list ul li input, div#setting div.list ul li.hide { display: none; }
+div#setting div.list ul li div.option, div#setting div.list ul li label { position: absolute; }
+div#setting div.list ul li div.option { text-align: center; }
+div#setting div.list ul li div.option i { cursor: pointer; margin: 0 6px; }
+div#setting div.list ul li div.option.handle { left: 0; width: 40px; }
+div#setting div.list ul li div.option.handle, div#setting div.list ul li div.option.handle i { cursor: move; cursor:-webkit-grabbing; }
+div#setting div.list ul li div.option.right { right: 0; width: 80px; }
+div#setting div.list ul li label { left: 40px; right: 80px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 700; }
+
+div#setting div.list div.notice { padding: 6px; background-color: rgba(245,225,220,.48); border: 1px solid #c83728; border-radius: 2px; }
+div#setting div.list div.notice i, div#setting div.list div.notice span { color: #c83728; font-weight: 700; }
+div#setting div.list div.notice i { font-size: 24px; margin-right: 6px; }
+div#setting div.list div.notice a { display: block; margin-top: 8px; text-align: right; font-weight: 700; cursor: pointer; }
+div#setting div.list div.notice a, div#setting div.list div.notice a i { margin: 0 4px 0 2px; color: #2977ee; }
+div#setting div.list div.notice a i { margin-right: 0; }

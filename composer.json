@@ -1,0 +1,42 @@
+{
+  "name": "widget/infinite",
+  "type": "library",
+  "description": "Javascript widget infinite",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "infinite"
+  ],
+  "homepage": "https://github.com/energia-source/widget-infinite",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    },
+    {
+      "name": "Gabriele Luigi Masero",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Infinite\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "energia-source/knight-artifact-entity": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/energia-source/knight-artifact-entity"
+    }
+  ]
+}

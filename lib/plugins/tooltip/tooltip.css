@@ -1,0 +1,12 @@
+table.infinite thead tr th div.inside.tooltip i.tooltip { cursor: help; font-size: 16px !important; color: #999999; }
+table.infinite thead tr th div.inside.tooltip i.tooltip:hover { color: #444; }
+table.infinite thead tr th div.inside.tooltip div.dropdown, table.infinite thead tr th div.inside.tooltip div.search { left: 22px; }
+
+#infinite-tooltip-container { position: absolute; padding: 15px; opacity: 0; text-align: center; color:#fff; background:rgba(0,0,0,0.6); pointer-events: none; border-radius: 5px; -moz-border-radius: 5px;-webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; margin-top: 10px; transition: opacity .5s ease-in-out; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out;-o-transition: opacity .5s ease-in-out; -ms-transition: opacity .5s ease-in-out; z-index: 16777270; }
+#infinite-tooltip-container.top { margin-top: 20px }
+#infinite-tooltip-container.show { opacity: 1; margin-top: 10px; pointer-events: all; }
+#infinite-tooltip-container.show.top{  margin-top: 10px; }
+#infinite-tooltip-container:after { content: ''; position: absolute; left: 50%; bottom: -10px; margin-left: -10px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid rgba(0,0,0,0.6); }
+#infinite-tooltip-container.top:after { top: -20px; bottom: auto; border-top-color: transparent; border-bottom: 10px solid rgba(0,0,0,0.6); }
+#infinite-tooltip-container.left:after { left: 10px; margin: 0; }
+#infinite-tooltip-container.right:after { right: 10px; left: auto; margin: 0; }
