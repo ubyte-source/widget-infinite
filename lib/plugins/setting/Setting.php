@@ -7,6 +7,8 @@ use Entity\Validation;
 
 class Setting extends Entity
 {
+	const COMPLETE = 'complete';
+
     protected function initialize() : void
 	{
 		$name = $this->addField('name');
