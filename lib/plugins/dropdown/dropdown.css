@@ -11,7 +11,7 @@ table.infinite thead tr th div.inside p.dropdown div.action i.expand_more { font
 
 table.infinite thead tr th div.inside p.dropdown.icon b { left: 36px; }
 
-table.infinite thead tr th div.inside ul.option { top: 32px; right: 36px; left: -1px; display: none; max-height: 200px; overflow-y: auto; z-index: 2048; }
+table.infinite thead tr th div.inside ul.option { top: 32px; right: 0; left: -1px; display: none; max-height: 200px; overflow-y: auto; z-index: 2048; }
 table.infinite thead tr th div.inside ul.option { background-color: #fff; border: 1px solid #ccc; border-radius: 2px; }
 table.infinite thead tr th div.inside ul.option.active { display: block; }
 
