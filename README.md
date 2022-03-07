@@ -33,7 +33,7 @@ infinite.addEventSelect(new Infinite.Event(Infinite.Event.always(), function () 
 ## Structure
 
 library:
-- [window.Infinite] (https://github.com/energia-source/widget-infinite/tree/main/lib)
+- [window.Infinite](https://github.com/energia-source/widget-infinite/tree/main/lib)
 
 <br>
 
