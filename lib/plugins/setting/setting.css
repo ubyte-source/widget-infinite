@@ -3,7 +3,7 @@ div#setting { position: absolute; right: 0; left: 0; bottom: 0; top: 0; }
 div#setting div.search { margin: 8px 0; background-color: #f1f1f1; border: 1px solid #cecece; border-radius: 2px; }
 div#setting div.search i { position: absolute; padding: 4px; margin-top: 1px; border-right: 1px dotted #cecece; }
 div#setting div.search div.field { margin-left: 32px; padding: 0 8px; background-color: #fff; }
-div#setting div.search div.field input { width: 100%; padding: 8px 0; }
+div#setting div.search div.field input { width: 100%; padding: 8px 0; outline: none; }
 
 div#setting div.list { position: absolute; top: 60px; left: 0; bottom: 0; right: 0; padding: 0; padding-right: 8px; overflow-y: scroll; }
 div#setting div.list { border-top: 1px solid #f1f1f1; border-bottom: 1px solid #f1f1f1; }

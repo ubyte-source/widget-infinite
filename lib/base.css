@@ -1,13 +1,13 @@
 table.infinite { user-select: none; }
 
 table.infinite thead tr th, table.infinite tbody tr td { position: relative; border-bottom: 1px solid #dedede; }
-table.infinite thead tr th.action, table.infinite tbody tr td.action { width: 32px; height: 32px; }
+table.infinite thead tr th.action, table.infinite tbody tr td.action { width: 32px; height: 32px; text-align: left; }
 table.infinite thead tr th.action i, table.infinite tbody tr td.action i { color: #cdcdcd; font-size: 18px; cursor: pointer; }
 table.infinite thead tr th.action i.on, table.infinite tbody tr td.action i.on { color: #0275d8; }
 table.infinite thead tr th.action input, table.infinite thead tr th.action i.disabled, table.infinite tbody tr td.action input { display: none; }
 
 table.infinite thead tr th div.inside div.search { position: absolute; top: 0; left: 0; bottom: 0; right: 0; padding-right: 8px; margin-top: 6px; }
-table.infinite thead tr th div.inside div.search input { width: 100%; font-size: 14px; }
+table.infinite thead tr th div.inside div.search input { width: 100%; font-size: 14px;  outline: none; }
 
 table.infinite thead tr th i.expand { display: none; width: 24px; position: absolute; top: 0; right: 0; bottom: 0; padding: 0 4px;  }
 table.infinite thead tr th i.expand { cursor: ew-resize; background-color: #ffffff; color: #cdcdcd; border-top-left-radius: 2px; border-top-right-radius: 2px; line-height: 32px; }
