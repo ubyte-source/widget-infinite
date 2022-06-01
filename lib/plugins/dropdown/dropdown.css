@@ -1,4 +1,4 @@
-table.infinite thead tr th div.inside p.dropdown { position: absolute; top: 0; left: 0; bottom: 0; right: 0; padding-top: 4px; line-height: 12px; cursor: pointer; }
+table.infinite thead tr th div.inside p.dropdown { position: absolute; top: 0; left: 0; bottom: 0; right: 0; padding-top: 4px; line-height: 12px; cursor: pointer; text-align: left; }
 table.infinite thead tr th div.inside p.dropdown i { font-size: 24px !important; float: left; width: 24px; }
 table.infinite thead tr th div.inside p.dropdown b, table.infinite thead tr th div.inside p.dropdown div.action, table.infinite thead tr th div.inside ul.option { position: absolute; }
 table.infinite thead tr th div.inside p.dropdown b { left: 4px; right: 36px; font-size: 16px; }
