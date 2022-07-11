@@ -42,7 +42,7 @@ div.table-infinite-preloader div.spinner div.bounce-1, table.infinite tbody tr t
 
 @page { size: 297mm 210mm !important;  }
 @media print {
-    .widget-infinite-printer, table.infinite {
+    .widget-infinite-enable-print, table.infinite {
         position: absolute !important;
         height: 100% !important;
         overflow: unset !important;
