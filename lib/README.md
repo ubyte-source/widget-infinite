@@ -253,7 +253,28 @@ Add a function to the select event
 It returns the select event from the events object.
 
  * **Returns:** The select method of the events property.
+ 
+#####  `setHardcode(key, value)` 
 
+Set a hardcoded value for a key
+
+ * **Parameters:** `key` — The name of the parameter.
+ * **Parameters:** `value` — The value to set.
+ * **Returns:** The `Infinite` object.
+ 
+#####  `getHardcode()` 
+
+Get the hardcode value from the xhr object
+
+ * **Returns:** The hardcode property of the XHR object. 
+
+#####  `deleteHardcode(key)` 
+
+Delete a hardcoded value from the hardcoded object
+
+ * **Parameters:** `key` — The key to delete from the hardcode object.
+ * **Returns:** The object itself.
+ 
 ##### `get()`
 
 Get the values of all the input fields in the table
